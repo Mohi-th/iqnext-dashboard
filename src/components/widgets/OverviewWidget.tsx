@@ -7,7 +7,7 @@ import ErrorState from '../common/ErrorState';
 import { STAT_DEFINITIONS } from '../../constants/ui';
 import { formatNumber, formatPercent, formatSqFt } from '../../utils/formatters';
 import type { OverviewData } from '../../types';
-import { TrendingUp, TrendingDown } from 'lucide-react';
+import { TrendingUp } from 'lucide-react';
 
 function formatValue(key: string, value: number): string {
   if (key === 'healthScore') return formatPercent(value);

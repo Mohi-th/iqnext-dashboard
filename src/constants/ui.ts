@@ -1,7 +1,7 @@
 import {
   Building2, Landmark, Wrench, ClipboardList, Bell,
   Users, Wifi, Monitor, Radio, FileText,
-  HeartPulse, Ruler, type LucideIcon,
+  HeartPulse, Ruler,
 } from 'lucide-react';
 
 export const HEALTH_COLORS = { healthy: '#16a34a', warning: '#d97706', critical: '#dc2626' } as const;

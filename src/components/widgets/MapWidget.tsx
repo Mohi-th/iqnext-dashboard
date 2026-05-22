@@ -9,7 +9,7 @@ import { selectBuildingsData, selectBuildingsStatus, selectBuildingsError } from
 import { MapSkeleton } from '../common/Skeleton';
 import ErrorState from '../common/ErrorState';
 import SectionHeader from '../common/SectionHeader';
-import { getHealthColor, getHealthTailwindText } from '../../utils/healthUtils';
+import { getHealthColor } from '../../utils/healthUtils';
 
 // Fix default Leaflet icons
 import markerIcon from 'leaflet/dist/images/marker-icon.png';

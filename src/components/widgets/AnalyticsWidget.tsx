@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
-  ResponsiveContainer, Legend, Cell,
+  ResponsiveContainer,
 } from 'recharts';
 import { useAppDispatch, useAppSelector } from '../../redux/hooks/hooks';
 import { fetchAnalytics } from '../../redux/thunks/analyticsThunk';

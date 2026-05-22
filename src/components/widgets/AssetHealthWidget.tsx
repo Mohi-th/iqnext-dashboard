@@ -6,7 +6,7 @@ import { AccordionRowSkeleton } from '../common/Skeleton';
 import ErrorState from '../common/ErrorState';
 import SectionHeader from '../common/SectionHeader';
 import Modal from '../common/Modal';
-import { useModal } from '../../hooks/useModel';
+import { useModal } from '../../hooks/useModal';
 import { calcAssetTotals } from '../../utils/healthUtils';
 import type { BuildingHealth, Floor } from '../../types';
 import { ChevronDown, Building2, Lightbulb } from 'lucide-react';
